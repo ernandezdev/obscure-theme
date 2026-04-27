@@ -43,7 +43,7 @@ npx @vscode/vsce package --allow-missing-repository
 Install the generated `.vsix` file:
 
 ```bash
-code --install-extension obscure-theme-0.1.0.vsix
+code --install-extension obscure-theme-*.vsix
 ```
 
 Then open `Preferences: Color Theme` and select one of the Obscure themes.

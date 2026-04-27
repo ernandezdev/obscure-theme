@@ -2,8 +2,9 @@
   "name": "obscure-theme",
   "displayName": "Obscure Theme",
   "description": "A focused collection of dark VS Code themes with three distinct syntax moods.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "ernandezdev",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.75.0"
   },
