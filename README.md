@@ -1,25 +1,43 @@
-# Obscure Theme
-
-Obscure Theme is a set of three dark color themes for Visual Studio Code. Each variation keeps the workspace quiet and focused while offering a different syntax mood for daily coding.
-
-## Variations
-
-- **Obscure Noir**: high-contrast dark interface with clean, vivid syntax accents.
-- **Obscure Ember**: dark interface with warm, expressive syntax colors.
-- **Obscure Mist**: softer dark interface with muted syntax colors for longer sessions.
-
 ## Installation
 
-Open this folder as a VS Code extension development project:
+### Option 1: Install from VSIX
+
+Download the latest `.vsix` file from the [Releases](../../releases) page.
+
+Then, in VS Code:
+
+1. Open the Extensions view.
+2. Click the `...` menu.
+3. Select `Install from VSIX...`.
+4. Choose the downloaded `.vsix` file.
+5. Open `Preferences: Color Theme`.
+6. Select one of the Obscure themes.
+
+### Option 2: Run locally from source
+
+Clone this repository:
 
 ```bash
-code --extensionDevelopmentPath="/Users/ernandezdev/Downloads/obscure-theme"
+git clone git@github.com:ernandezdev/obscure-theme.git
+cd obscure-theme
 ```
 
-Then run **Preferences: Color Theme** and select one of the Obscure variations.
+Build the extension package:
 
-## Themes
+```bash
+npx @vscode/vsce package --allow-missing-repository
+```
 
-- Obscure Noir
-- Obscure Ember
-- Obscure Mist
+Install the generated `.vsix` file:
+
+```bash
+code --install-extension obscure-theme-0.1.0.vsix
+```
+
+Then open `Preferences: Color Theme` and select one of the Obscure themes.
+
+## Development
+
+To test the theme while editing it, open this repository in VS Code and press `F5`.
+
+This will launch a new Extension Development Host window where you can preview the themes.
