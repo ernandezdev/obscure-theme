@@ -1,3 +1,15 @@
+# Obscure Theme
+
+A focused collection of dark VS Code themes with three distinct syntax moods.
+
+Obscure Theme is designed for developers who prefer a clean, minimal, and comfortable dark editor experience, with carefully balanced syntax colors for daily coding.
+
+## Themes
+
+- **Obscure Noir** — a deep and minimal dark theme.
+- **Obscure Ember** — a warm dark theme with expressive syntax contrast.
+- **Obscure Mist** — a softer dark theme with a calm visual tone.
+
 ## Installation
 
 ### Option 1: Install from VSIX
@@ -41,3 +53,7 @@ Then open `Preferences: Color Theme` and select one of the Obscure themes.
 To test the theme while editing it, open this repository in VS Code and press `F5`.
 
 This will launch a new Extension Development Host window where you can preview the themes.
+
+## License
+
+MIT
