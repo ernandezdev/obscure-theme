@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.1] - 2026-04-27
+
+### Changed
+
+- Updated the extension icon used in VS Code and GitHub release packages.
+
 ## [0.2.0] - 2026-04-27
 
 ### Added
