@@ -1,0 +1,38 @@
+{
+  "name": "obscure-theme",
+  "displayName": "Obscure Theme",
+  "description": "A focused collection of dark VS Code themes with three distinct syntax moods.",
+  "version": "0.1.0",
+  "publisher": "ernandezdev",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "syntax",
+    "minimal"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Obscure Noir",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obscure-noir-color-theme.json"
+      },
+      {
+        "label": "Obscure Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obscure-ember-color-theme.json"
+      },
+      {
+        "label": "Obscure Mist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obscure-mist-color-theme.json"
+      }
+    ]
+  }
+}
