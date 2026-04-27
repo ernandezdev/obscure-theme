@@ -14,7 +14,7 @@ Obscure Theme is designed for developers who prefer a clean, minimal, and comfor
 
 ### Option 1: Install from VSIX
 
-Download the latest `.vsix` file from the [Releases](../../releases) page.
+Download the latest `.vsix` file from the [Releases](https://github.com/ernandezdev/obscure-theme/releases) page.
 
 Then, in VS Code:
 
