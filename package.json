@@ -1,8 +1,8 @@
 {
   "name": "obscure-theme",
   "displayName": "Obscure Theme",
-  "description": "A focused collection of dark VS Code themes with three distinct syntax moods.",
-  "version": "0.1.1",
+  "description": "A focused collection of dark VS Code themes with matching file icon themes.",
+  "version": "0.2.0",
   "publisher": "ernandezdev",
   "icon": "icon.png",
   "engines": {
@@ -15,7 +15,10 @@
     "theme",
     "dark",
     "syntax",
-    "minimal"
+    "minimal",
+    "icons",
+    "dark-theme",
+    "color-theme"
   ],
   "contributes": {
     "themes": [
@@ -33,6 +36,18 @@
         "label": "Obscure Mist",
         "uiTheme": "vs-dark",
         "path": "./themes/obscure-mist-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "obscure-file-icons",
+        "label": "Obscure File Icons",
+        "path": "./icons/obscure-file-icons-icon-theme.json"
+      },
+      {
+        "id": "obscure-file-icons-mono",
+        "label": "Obscure File Icons Mono",
+        "path": "./icons/obscure-file-icons-mono-icon-theme.json"
       }
     ]
   }
