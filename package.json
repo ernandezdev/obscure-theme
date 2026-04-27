@@ -2,7 +2,7 @@
   "name": "obscure-theme",
   "displayName": "Obscure Theme",
   "description": "A focused collection of dark VS Code themes with matching file icon themes.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "ernandezdev",
   "icon": "icon.png",
   "engines": {
